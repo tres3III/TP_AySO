@@ -1,0 +1,80 @@
+ssh-keygen
+ls
+ls -a
+cd .ssh
+ls
+vim id_rsa.pub
+cd
+ls
+cd repogit/
+ls
+cd
+ls
+rm repogit/
+ls
+rm -rf repogit/
+ls
+mkdir repogit
+ls
+cd repogit/
+git clone ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1L0OsPwKvrkTt9cOI4dPcUtajEXmBrG2qB1jnP8nFXUITdMFDmB80fhSRXKxmaDs+6aQXX3agV7sbDxWPoS/uLTf++e1i0HR7YLr6hQ/neR91HAD6U+WBye+7Gtg0qGzEhdkcwFkerSqlxsMECCsanB/xR8pLO0S6vPFLJrYKDF3eGinxvewkjh446wfvnYn9+eby9+dc+hAJIo3E20fc7fVF9FGLcNxHvdQd22H
+S0kVoZjx+kQdpyap1YF2Gr3xu4B2NRJvAu25/nOjGhSVbwK18oFxFANqP75DMaTNfs+nwEfwhC6ADpZLIfskFFyGnTwi9RSuzcyXBcnQwRPlXpf+Q9j9acF+UFtK4lR7oJf/OwrFI2/gBEYAlx9uGZcZ35nz/h2NorCCT+PelJ/xdTxEKWeRzHSh0Wfts4wEvkMHfKTzpYS3SttUy/hkNTjrg0VJ/LKAU3C5kl54F3Y0rPpH91y6FA76nt+lQ8d13C/1uT7+xnuV4Lp
+8xX7p5u0E= vagrant@VMPruebas
+ls
+git clone https://github.com/tres3III/TP_AySO.git
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+grep -i home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+git add .
+git config --global user.email "luchoohg@gmail.com"
+git config --global user.name "Tu-
+ls
+d
+q
+:q
+cd
+cd -
+cd -l
+git config --global user.name "Tu-
+git config --global user.name "tres3III"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+tail -n1
+head -n1
+grep "cpu"
+grep tail -n1
+grep "model name" /proc/cpuinfo | head -n1 >>
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git commit "feat: añandiendo informacion de CPU"
+git commit -m "feat: añandiendo informacion de CPU"
+git commit -a "feat: añadiendo informacion de CPU"
+git commit -m "feat: añadiendo informacion de cpu"
+git add file datos_usuario.txt 
+git add datos_usuario.txt 
+git commit -m "Feat: añadiendo informacion de cpu"
+:)
+cat <<EOF >> README.md
+Alumno: Luciano
+Division: 315 turno noche
+EOF
+
+git add README.md datos_usuarios.txt
+ls
+vim r
+ls
+vim README.md
+git add README.md
+git add datos_usuario.txt
+git commit -m "ADD: añadiendo Readme y datos de usuario"
+history -a
